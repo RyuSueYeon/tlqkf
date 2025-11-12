@@ -18,6 +18,9 @@ function App() {
   };
 
   const handleRedClick = () => {
+    const audio = new Audio(require('./sound.mp3'));
+    audio.play();
+
     setFullScreenRed(true);
     setTimeout(() => {
       setFullScreenRed(false);
