@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -6,12 +6,22 @@ import LoLTeam from './LoLTeam';
 import Header from './Header';
 import reportWebVitals from './reportWebVitals';
 
+function MainApp() {
+  const [currentPage, setCurrentPage] = useState('home'); // 'home' 또는 'lol'
+
+  return (
+    <>
+      <Header setCurrentPage={setCurrentPage} />
+      {currentPage === 'home' && <App />}
+      {currentPage === 'lol' && <LoLTeam />}
+    </>
+  );
+}
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
-    <App />
-    <LoLTeam />
+    <MainApp />
   </React.StrictMode>
 );
 
