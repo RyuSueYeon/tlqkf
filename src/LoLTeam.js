@@ -58,32 +58,41 @@ function LoLTeam() {
           const tier = form.tier.value;
           const position1 = form.position1.value;
           const position2 = form.position2.value;
-          addMember(name, tier, position1, position2);
+          addMember(name, tier, position1, position2); //저장한 값을 실제 멤버로 추가
           form.reset();
         }}
       >
-        <input type="text" name="name" placeholder="이름" required />
-        <select name="tier" required>
+        {/* 이름 입력칸 */}
+        <input type="text" name="name" placeholder="이름" required /> 
+
+        {/* 티어 선택칸 */}
+        <select name="tier" require style={{ padding: '8px', fontSize: '16px', cursor: 'pointer' }}>
           {TIERS.map((tier) => (
             <option key={tier} value={tier}>
               {tier}
             </option>
           ))}
         </select>
-        <select name="position1" required>
+
+        {/* 포지션 선택칸 */}
+        <select name="position1" required style={{ padding: '8px', fontSize: '16px', cursor: 'pointer' }}>
           {positions.map((pos) => (
             <option key={pos} value={pos}>
               {pos}
             </option>
           ))}
         </select>
-        <select name="position2" required>
+
+          {/* 두 번째 포지션 선택칸 */}
+        <select name="position2" required style={{ padding: '8px', fontSize: '16px', cursor: 'pointer' }}>
           {positions.map((pos) => (
             <option key={pos} value={pos}>
               {pos}
             </option>
           ))}
         </select>
+
+        {/* 등록 버튼 onsubmit 함수가 실행*/}
         <button type="submit">멤버 추가</button>
       </form>
 
