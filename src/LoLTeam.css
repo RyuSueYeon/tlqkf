@@ -1,0 +1,59 @@
+.lol-team {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #01543b;
+  color: "white";
+}
+
+.lol-team h1 {
+  text-align: center;
+  color: #333;
+}
+
+.lol-team input[type="text"],
+.lol-team input[type="number"] {
+  margin: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.lol-team label {
+  margin-left: 10px;
+}
+
+.lol-team button {
+  margin: 5px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.lol-team button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.lol-team .team-list {
+  margin-top: 20px;
+}
+
+.lol-team .team-list h2 {
+  color: #007bff;
+}
+
+.lol-team .team-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lol-team .team-list li {
+  margin: 5px 0;
+  padding: 8px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
