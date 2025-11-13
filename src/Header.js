@@ -22,12 +22,7 @@ function Header({ setCurrentPage }) {
           <li className="nav-item">
             <a href="/" className="nav-link navbar-text" onClick={(e) => handleNavClick(e, 'lol')}>롤 내전</a>
           </li>
-          <li className="nav-item">
-            <a href="/" className="nav-link navbar-text">con</a>
-          </li>
-          <li className="nav-item">
-            <a href="/" className="nav-link navbar-text">con</a>
-          </li>
+
           
         </ul>
       </div>

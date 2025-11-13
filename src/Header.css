@@ -10,9 +10,6 @@
     
     nav{
       height: 50px;
-      
-
-
     }
     
     a {
@@ -32,7 +29,7 @@
     
     /* 네비 */
     .navbar {
-      background-color: #fff ;
+      background-color: #ffffff ;
       border-bottom: 1px solid #e5e7eb;
       top: 0;
       position: fixed;
@@ -48,7 +45,7 @@
     }
     
     .logo {
-      font-size: 25px;
+      font-size: 23px;
       font-weight: 700;
       color: #111827;
     }
@@ -125,215 +122,13 @@
       font-size: 1rem;
     }
     
-    /* Hero Section */
-    .section {
-      padding: 150px 0;
-      margin-top: 50px;
-      
-      
-    }
-    
-    .section-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 3rem;
-      align-items: center;
-      
-    }
-    
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      background-color: #ede9fe;
-      color: #6d28d9;
-      padding: 0.5rem 1rem;
-      border-radius: 10000px;
-      font-size: 15px;
-      font-weight: 500;
-      margin-bottom: 15px;
-    }
-    
-    .badge i {
-      margin-right: 0.5rem;
-    }
-    
-    .section-title {
-      font-size: 2.5rem;
-      font-weight: 700;
-      color: #111827;
-      line-height: 1.2;
-      margin-bottom: 1.5rem;
-    }
-    
-    .section-text {
-      color: #6b7280;
-      font-size: 1.125rem;
-      margin-bottom: 2rem;
-    }
-    .section-image{
-      height: 300px;
-      margin-left: 100px;
-    }
-    .section-image img{
-      
-      width: 280px;
-      transition: 0.3s;
-      
-      margin-top: 10px;
-    }
-    .section-image img:hover {
-      margin-top: 0;
-    }
-    
 
-
-    .technology {
-      padding: 4rem 0;
-
-    }
-
-    .technology-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2rem;
-    }
     
-    .technology-card {
-      background-color: white;
-      border: 1px solid #e5e7eb;
-      border-radius: 0.5rem;
-      padding: 2rem;
-      transition: box-shadow 0.3s;
-    }
     
-    .technology-card:hover {
-      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-    }
-    
-    .technology-icon {
-      background-color: #f3f4f6;
-      width: 3rem;
-      height: 3rem;
-      border-radius: 0.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 1rem;
-    }
-    
-    .technology-icon i {
-      color: #6b7280;
-      font-size: 1.25rem;
-    }
-    
-    .technology-title {
-      font-size: 1.25rem;
-      font-weight: 600;
-      color: #111827;
-      margin-bottom: 0.75rem;
-    }
-    
-    .technology-text {
-      color: #6b7280;
-    }
-
-    .technology-img{
-      padding: 5px;
-    }
-    
-    /* About Section */
-    .section2 {
-      padding: 20px 0;
-      margin-top: 200px;
-      
-    }
-    
-    .section2-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 3rem;
-      align-items: center;
-    }
-    
-    .section2-subtitle {
-      font-size: 0.875rem;
-      font-weight: 500;
-      color: #6b7280;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 1rem;
-    }
-    
-    .section2-title {
-      font-size: 50px;
-      font-weight: 700;
-      color: #111827;
-      line-height: 1.2;
-    }
-    
-    .section2-image {
-      border-radius: 0.5rem;
-      overflow: hidden;
-      transition: 0.3s;
-      margin-top: 10px;
-    }
-
-  
-    .section2-image:hover {
-      margin-top: 0;
-    }
-
-    .footer{
-      width: 100%;
-      margin-top: 300px;
-      height: 150px;
-      background-color: #e6e6e6;
-      padding: 20px;
-    }
     
    
     
-    @media (max-width: 860px) {
-
-      .section {
-      padding: 0px 0;
-      }
-      .section2-title {
-        font-size: 40px;
-      }
-      .section-grid, 
-      .technology-grid, 
-      .section2-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .nav-menu {
-        display: none;
-      }
-
-      .section-grid{
-        height: 600px;
-      }
-
-      .section-image{
-      height: 300px;
-      margin-left: 50px;
-      }
-
-      .footer{
-        height: 220px;
-      }
-    }
     
-    /* Mobile menu button (hidden by default) */
-    .mobile-menu-btn {
-      display: none;
-      background: none;
-      border: none;
-      font-size: 1.5rem;
-      color: #6b7280;
-      cursor: pointer;
-    }
 
 
 
